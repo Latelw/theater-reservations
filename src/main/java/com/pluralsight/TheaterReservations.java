@@ -34,7 +34,10 @@ public class TheaterReservations {
         //(# ticket(s) reserved for (date) under (LastName, FirstName)
         System.out.print(tickets);
         System.out.print(tickets == 1 ? " ticket " : " tickets ");
-        System.out.print("reserved for " + localDate + " under" + lastName + "," + firstName);
+        System.out.print("reserved for " + localDate + " under " + lastName + "," + firstName);
+
+        input.close();
+
 
 
     }
